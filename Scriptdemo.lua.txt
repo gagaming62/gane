@@ -1,0 +1,160 @@
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
+
+       local Window = MakeWindow({
+         Hub = {
+         Title = "Gà gaming",
+         Animation = "Youtube: Gà gaming"
+         },
+        Key = {
+        KeySystem = false,
+        Title = "Key System",
+        Description = "",
+        KeyLink = "",
+        Keys = {"1234"},
+        Notifi = {
+        Notifications = true,
+        CorrectKey = "Running the Script...",
+       Incorrectkey = "The key is incorrect",
+       CopyKeyLink = "Copied to Clipboard"
+      }
+    }
+  })
+
+       MinimizeButton({
+       Image = "http://www.roblox.com/asset/?id=79714079568891",
+       Size = {60, 60},
+       Color = Color3.fromRGB(10, 10, 10),
+       Corner = true,
+       Stroke = false,
+       StrokeColor = Color3.fromRGB(255, 0, 0)
+      })
+      
+------ Tab
+     local Tab1o = MakeTab({Name = "Script Farm"})
+     local Tab2o = MakeTab({Name = "Script Kaitun"})
+     
+------- BUTTON
+    
+    AddButton(Tab1o, {
+     Name = "No Hub",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://www.xhider.xyz/raw/ThanhDuyHub/BloxFruit.Xnhau"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Andepzai Hub",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiHubBeta/refs/heads/main/AnDepZaiHubBeta.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "RedZ Hub",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/newredzv3/Scripts/refs/heads/main/main.luau"))(Settings)
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Nash Hub",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Obofo5000/NashHub/refs/heads/main/BloxFruits.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Nova X Hub",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Real-Nova-X-Hub/all-game/refs/heads/main/skidder.lua"))()
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = "Kaitun Hub Full Item",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+getgenv().NatAovHub = {
+    ["Team"] = "Pirates", 
+    ["FPS"] = 36,
+    ["Fps Boost"] = false, 
+    ["Black Screen"] = false, 
+    ["White Screen"] = false, 
+    
+    ["Auto Hop"] = {
+        ["Enabled"] = true, 
+        ["Time"] = 36 * 36,
+        ["Hop If Down"] = true, 
+        ["Hop When Kick"] = true
+    },
+    
+    ["Get Items"] = {
+        ["Get All Melee"] = true, 
+        ["Cursed Dual Katana"] = true, 
+        ["Skull Guitar"] = true, 
+        ["Saber"] = true, 
+        ["Update Race"] = true, 
+        ["Farm Dark Fragment At Sea2"] = false 
+    },
+    
+    ["Auto Chat"] = {
+        ["Enabled"] = false,
+        ["Text"] = "NatAov Hub On Top !",    
+        ["Delay"] = 36,     
+    },
+    
+    ["Auto Buy"] = {
+        ["Buy All Gun"] = false,  
+        ["Buy All Sword"] = false, 
+        ["Buy Fruits Shop"] = true, 
+        ["Fruits Want Buy"] = {"Kitsune-Kitsune"} 
+    }
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-AnhTuansitink/NatAov-Hub/refs/heads/main/NatAovHub-KaitunBF.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Hdanh Maru Hub",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hdanhvip/hdanhhub/refs/heads/main/BananaHub.lua.txt"))()
+  end
+  })
