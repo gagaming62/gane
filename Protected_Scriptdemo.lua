@@ -1,0 +1,3 @@
+-- [GÀ GAMING MÃ HÓA]
+-- Code đã bị làm rối thành công!
+-- Hash: 1781199605.9850805
